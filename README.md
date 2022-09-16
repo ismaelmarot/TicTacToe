@@ -11,4 +11,4 @@ Used:
 
 ---------------------------------------------------------
 
-[![calculator-fcc-prev.jpg](https://i.postimg.cc/59FXGtvg/calculator-fcc-prev.jpg)](https://postimg.cc/hhc4Qc2Q)
+[![0-tictactoe.jpg](https://i.postimg.cc/brfgCVQC/0-tictactoe.jpg)](https://postimg.cc/2bTn3w9h)
