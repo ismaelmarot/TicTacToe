@@ -1,0 +1,57 @@
+@use '_mixins' as mix
+  
+.body
+  @include mix.flex-column(center,center)
+  background-image: url('/src/img/img-space.jpg')
+  font-family: 'Arial', sans-serif
+  
+  height: 100vh
+
+  .TicTacToe
+    border-radius: .25rem
+    background-color: white
+
+    .header
+      @include mix.flex-row(center,center)
+      margin: .5rem     
+
+    .box
+      @include mix.flex-column (center,center)
+      margin: 1rem
+
+      .row
+        @include mix.flex-row(center,center)
+
+        .btn
+          @include mix.setHeightWidth(75px,75px)
+          border: 1px solid black
+          border-radius: .3rem
+          margin: .2rem
+          text-align: center
+          font-size: 50px
+          font-weight: 500
+          &:hover
+            cursor: pointer
+            background-color: rgba(240, 240, 240, 1.0)
+          &:disabled
+            color: black
+            cursor: no-drop
+
+    .row__div
+      @include mix.flex-row(center,center)
+      margin-bottom: 2rem
+
+      .result
+        margin-right: 2rem
+
+      #reset
+        font-size: 17px
+        padding: .5rem 1.5rem
+        background-color: pink
+        border: 1px solid black
+        border-radius: 3px
+        cursor: pointer
+        transition: all 0.1s ease-in-out
+        &:hover
+          color: white
+          background-color: rgba(103, 88, 175, 1.0)     

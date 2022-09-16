@@ -1,0 +1,110 @@
+/*========== MIXINS ==========*/
+.body {
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  background-image: url("/src/img/img-space.jpg");
+  font-family: "Arial", sans-serif;
+  height: 100vh;
+}
+.body .TicTacToe {
+  border-radius: 0.25rem;
+  background-color: white;
+}
+.body .TicTacToe .header {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  margin: 0.5rem;
+}
+.body .TicTacToe .box {
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  margin: 1rem;
+}
+.body .TicTacToe .box .row {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+}
+.body .TicTacToe .box .row .btn {
+  height: 75px;
+  width: 75px;
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  margin: 0.2rem;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+}
+.body .TicTacToe .box .row .btn:hover {
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+.body .TicTacToe .box .row .btn:disabled {
+  color: black;
+  cursor: no-drop;
+}
+.body .TicTacToe .row__div {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  margin-bottom: 2rem;
+}
+.body .TicTacToe .row__div .result {
+  margin-right: 2rem;
+}
+.body .TicTacToe .row__div #reset {
+  font-size: 17px;
+  padding: 0.5rem 1.5rem;
+  background-color: pink;
+  border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.body .TicTacToe .row__div #reset:hover {
+  color: white;
+  background-color: #6758af;
+}
+
+/*# sourceMappingURL=index.css.map */
